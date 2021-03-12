@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianca</title>
+    <style>
+        *{
+            margin:0px;
+        }
+.parinte{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  justify-content:space-around;
+  flex-direction: row;
+ 
+    
+}
+.child-1{
+    background-color: darkcyan;
+   flex-grow: 0.2;
+}
+.child-2{
+    background-color: darkgoldenrod;
+    flex-grow: 0.2;
+}
+.child-3{
+    background-color: darkgreen;
+    flex-grow: 0.2;
+}
+@media (max-width:768px){
+   .parinte{
+       flex-direction: column;
+   }
+   .child-1{
+       background-color: blue;
+   }
+   .child-2{
+       background-color: darkorchid;
+   }
+   .child-3{
+       background-color: darkslateblue;
+   }
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="parinte">
+<div class="child-1"></div>
+<div class="child-2"></div>
+<div class="child-3"></div>
+    </div>
+</body>
+</html>

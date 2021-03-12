@@ -1,0 +1,55 @@
+body{
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+  width: 100vw;
+  height: 100vh;
+    flex-direction: row;
+    flex-wrap:wrap;
+    
+}
+.child-1{
+    display: flex;
+    justify-content: flex-end;
+width: 100%;
+padding: 0.5%;
+background-color: black;
+}
+.child-2{
+    width: 20%;
+    height:590px ;
+    background-color:rosybrown;
+}
+.child-3{
+width: 70%;
+height: 590px;
+background-color: white;
+}
+.child-4{
+    width: 10%;
+    height: 590px;
+    background-color: rosybrown;
+}
+.ceva{
+    display: inline-block;
+    color: white;
+    border-radius: 25px;
+    border-color: rosybrown;
+    border-style: solid;
+    width: 10%;
+    background-color: black;
+    margin-right: 30px;
+    text-align: center;
+}
+.avatar{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rosybrown;
+}
+

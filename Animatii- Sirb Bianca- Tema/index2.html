@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bianca</title>
+    <style>
+        .div-1{
+            position: relative;
+            background-color: cadetblue;
+            width: 80px;
+            height: 80px;
+            margin-top: 10%;
+            margin-left: 35%;
+            transition: 1s;
+            animation-name: culoare;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            transition: all 2S;
+        }
+        .div-1:active{
+          transform:rotate(1080deg);
+      }
+      
+        @keyframes culoare{
+            0%   {background-color:cadetblue; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:red; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:cadetblue; left:0px; top:0px;}
+        }
+        .div-1:hover{
+        width: 200px;
+        height: 200px; 
+      }
+       .div-1:active{
+           width:40px ;
+           height: 40px;
+       }
+      
+      
+
+    </style>
+</head>
+<body>
+    <div class="div-1">
+
+    </div>
+    
+</body>
+</html>

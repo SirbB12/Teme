@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+}
+
+.nav-bar {
+    z-index: 1;
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    left: 15%;
+    background-color: black;
+}
+
+.side-bar {
+    z-index: 1;
+    display: inline-block;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: blue;
+}
+
+.content {
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    display: inline-block;
+    width: 1349px;
+    height: 3000px;
+    background-color: brown;
+}
+
+h1 {
+    text-align: center;
+    color: deeppink;
+}
+
+h2 {
+    background-color: tan;
+    background-position: 100px;
+    color: darkorange;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    margin: 10px 0;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+h1{
+    display:inline-block;
+    background: linear-gradient(to right, red, orange );
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 22%;
+    width: 50%;
+    
+}
+#block-red{
+    display: inline-block;
+    position: fixed;
+    width: 0px;
+    height: 10%;
+    border-radius: 8px;
+    left: 35%;
+    top:20%;
+    background-color: aquamarine;
+    transition:1s;
+}
+#block-red:hover{
+    background-color: red;
+    width: 25%;
+    
+}
+.block-orange{
+    display: inline-block;
+    position: fixed;
+    width: 0px;
+    height: 10%;
+    border-radius: 8px;
+    top:40%;
+    left: 35%;
+    background-color: aquamarine;
+    transition: 1s;
+}
+.block-orange:hover{
+    background-color: orange;
+    width: 25%;
+    
+}
